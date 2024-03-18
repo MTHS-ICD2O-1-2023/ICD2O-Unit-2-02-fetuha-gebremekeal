@@ -8,6 +8,8 @@
  * Do basic math.
  */
 function doMathClicked() {
-  document.getElementById("area-answer").innerHTML += (3 * 5) + " cm<sup>2" 
-  document.getElementById("perimeter-answer").innerHTML += 2 * (3 + 5) + "cm" 
+  var w = 5
+  var l = 3
+  document.getElementById("area-answer").innerHTML += (l * w) + " cm<sup>2" 
+  document.getElementById("perimeter-answer").innerHTML += 2 * (l + w) + "cm" 
 }
