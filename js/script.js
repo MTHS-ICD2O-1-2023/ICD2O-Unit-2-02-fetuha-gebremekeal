@@ -8,9 +8,6 @@
  * Do basic math.
  */
 function doMathClicked() {
-  document.getElementById("add-math").innerHTML = "<p>6 + 5 = " + (6 + 5) + "</p>"
-  document.getElementById("subtract-math").innerHTML = "<p>7 - 3 =  " + (7 - 3) + "</p>"  
-  document.getElementById("multiply-math").innerHTML += "<p> the area" + (3 * 5) + "</p>" 
-  document.getElementById("divide-math").innerHTML = "<p>(4 ÷ 2) + 3 = " + (4 / 2 + 3) + "</p>"
-  document.getElementById("exponent-math").innerHTML = "<p>5 + 2³ = " + (5 + 2 ** 3) + "</p>"
+  document.getElementById("area-answer").innerHTML += (3 * 5) + " cm<sup>2" 
+  document.getElementById("perimeter-answer").innerHTML += 2 * (3 + 5) + "cm" 
 }
